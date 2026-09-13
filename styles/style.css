@@ -1,0 +1,41 @@
+nav{
+    background-color: rgb(132, 44, 214);
+    color: white;
+    
+}
+.nav-bar{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.personal-info img{
+    width: 25px;
+}
+.name{
+    margin: 5px;
+}
+.email{
+    display: flex;
+}
+.phone{
+    display: flex;
+}
+.personal-info{
+    margin-left: 10px;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.links{
+    display: flex;
+    gap: 20px;
+    margin-right: 10px;
+
+}
+a:hover{
+    font-weight:bold;
+    text-decoration: underline;
+}
