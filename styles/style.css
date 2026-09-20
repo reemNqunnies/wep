@@ -13,6 +13,8 @@ nav{
     width: 25px;
 }
 .name{
+    font-size: 30px;
+    font-style: oblique;
     margin: 5px;
 }
 .email{
@@ -30,12 +32,105 @@ a{
     text-decoration: none;
 }
 .links{
+    font-size: 20px;
     display: flex;
     gap: 20px;
     margin-right: 10px;
-
+    
 }
 a:hover{
     font-weight:bold;
     text-decoration: underline;
+}
+/*hero*/
+.hero{
+    display: flex;
+    justify-content: center;
+    gap:25px;
+    margin-top: 10px;
+}
+.hero img{
+    width: 670px;
+}
+.hero .bio{
+    margin-top: 150px;
+
+}
+.hero .bio h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: blueviolet;
+}
+.hero .bio p{
+    color: rgb(88, 66, 108);
+    font-size: 20px;
+}
+/*skills*/
+.skills h2{
+    margin-left: 40px;
+    font-size: 40px;
+    color: blueviolet;
+}
+.skills .skil img{
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+}
+.skills .skil h6{
+    margin-left: 30px;
+}
+.skills .skil {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;                             
+    max-width: 750px;                      
+    margin: 0 auto;                        
+    justify-items: center;
+    justify-content: center;
+    
+}
+.skills .skil .sk{
+    border: 2px solid #732996; 
+    border-radius: 12px;       
+    padding: 25px 60px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff; 
+    
+}
+
+.skills .skil  > div:hover {
+    transform: translateY(-5px);
+    border-color: #8477e4; 
+
+}
+/*project*/
+.projects h2{
+    margin-left: 40px;
+    font-size: 40px;
+    color: blueviolet;
+}
+.projects .pro{
+    font-size: 28px;
+    margin-left: 100px;
+}
+.projects .pro p{
+    margin-left: 10px;
+}
+hr{
+    width: 60%;
+}
+/*recommendations*/
+.recommendations h2{
+    margin-left: 40px;
+    font-size: 40px;
+    color: blueviolet;
+}
+.recommendations p{
+    display: flex;
+    font-family: cursive;
+    border:2px solid #732996;
+    border-radius: 10px;       
+    padding: 15px;            
+    margin: 15px 100px;
+
 }
