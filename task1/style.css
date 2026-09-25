@@ -1,0 +1,16 @@
+.nav-bar{
+    display: flex;
+    background-color: rgb(22, 15, 64);
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    margin-left: 200px;
+    height: 350px;
+}
+.links a{
+    margin-right: 500px;
+    font-size: 100px;
+    color: white;
+    text-decoration: none;
+}
