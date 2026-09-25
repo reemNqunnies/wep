@@ -18,7 +18,7 @@
     margin-left: 50px;
     font-size: 150px;
     font-weight: lighter;
-    font-family:"Press Start 2P", system-ui; ;
+    font-family:"Press Start 2P", system-ui; 
 
 }
 .links a{
@@ -206,20 +206,63 @@ a:hover{
     margin-top: -9rem;
     justify-items: center;
     background-color: #000;
-    height:180rem;
+    height:170rem;
     
     
 }
 .ourGames h1{
     color: #f7e6c4;
-    font-size: 200px;
-    font-family:"Cherry Bomb One", system-ui;
+    font-size: 175px;
+    font-family:"Press Start 2P", system-ui;;
 }
 .ourGames .card{
     display:flex ;
-    gap: 90rem;
+    gap: 35rem;
 }
 .game{
-    border:1rem #fff;
+    margin-top: 10rem;
+    border:.6rem #fff;
     border-style: dotted;
+    align-items: center;
+    justify-items: center;
+
+}
+.game h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.game pre{
+    color: white;
+    font-size: 4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.game img{
+    height: 45rem;
+    margin-left:7rem;
+}
+/*who we r*/
+.who{
+    margin-top: -9rem;
+    height:170rem;
+    background-color: #000;
+    justify-items: center;
+}
+.who h1{
+    color: #f7e6c4;
+    font-size: 175px;
+    font-family:"Press Start 2P", system-ui;
+
+}
+.who pre{
+    margin-top: 30rem;
+    color: white;
+    font-size: 5rem;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.who .p{
+    color: white;
+    font-size: 5rem;
+    text-align: right;
+    margin-left: 100rem;
 }
