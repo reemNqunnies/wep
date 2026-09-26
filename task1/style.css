@@ -31,7 +31,7 @@
 a:hover{
     font-weight:bold;
     text-decoration: underline;
-    color: rgb(73, 126, 189);
+    color: #6e4ed9;
 }
 /*hero*/
 
@@ -73,7 +73,7 @@ a:hover{
 .btn-17 {
   -webkit-tap-highlight-color: transparent;
   -webkit-appearance: button;
-  background-color: #000;
+  background-color: #000 !important;
   background-image: none;
   color: #fff;
   cursor: pointer;
@@ -219,15 +219,21 @@ a:hover{
 .ourGames .card{
     display:flex ;
     gap: 35rem;
-}
-.game{
+  }
+  .game{
+    border-radius: 6rem;
     margin-top: 10rem;
     border:.6rem #fff;
     border-style: dotted;
     align-items: center;
     justify-items: center;
-
-}
+    
+  }
+ .game:hover{
+    box-shadow: 0 0 4rem 0.5rem #6e4ed9;
+    cursor: pointer;
+    
+  }
 .game h1{
     font-family:"Cherry Bomb One", system-ui;
 }
@@ -324,6 +330,7 @@ button:hover {
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
+  cursor: pointer;
 }
 
 button:hover::before {
@@ -380,4 +387,16 @@ footer{
   font-family: 'Times New Roman', Times, serif;
   font-size: 6rem;
   text-align: center;
+}
+html {
+  scroll-behavior: smooth;
+}
+#C{
+  scroll-margin-top: 50rem;
+}
+#W{
+  scroll-margin-top: 25rem;
+}
+#O{
+  scroll-margin-top: 20rem;
 }
